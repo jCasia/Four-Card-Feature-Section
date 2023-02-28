@@ -17,6 +17,10 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+
+    @media only screen and (max-width: 70.625em) {
+      margin: 4rem 2rem;
+    }
   }
 
   &-heading-text-container {
@@ -33,10 +37,18 @@
     line-height: 1.4;
     font-size: 2.05rem;
 
+    @media only screen and (max-width: 56.25em) {
+      font-size: 1.55rem;
+    }
+
     &-light {
       font-weight: 200;
       display: block;
       font-size: 2rem;
+
+      @media only screen and (max-width: 56.25em) {
+        font-size: 1.5rem;
+      }
     }
   }
 
