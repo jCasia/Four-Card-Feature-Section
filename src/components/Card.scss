@@ -1,0 +1,9 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "card2 card1 card4"
+    "card2 card3 card4";
+  gap: 1.75rem;
+}

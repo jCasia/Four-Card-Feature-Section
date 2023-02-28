@@ -1,0 +1,51 @@
+@import "../variables.scss";
+
+.card {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.75rem 1.75rem 0.1rem rgba(0, 0, 0, 0.07);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+
+  max-width: 21.5rem;
+
+  &:nth-child(1) {
+    grid-area: card1;
+    border-top: 0.25rem solid $color-red;
+  }
+  &:nth-child(2) {
+    grid-area: card2;
+    align-self: center;
+    border-top: 0.25rem solid $color-cyan;
+  }
+  &:nth-child(3) {
+    grid-area: card3;
+    border-top: 0.25rem solid $color-orange;
+  }
+  &:nth-child(4) {
+    grid-area: card4;
+    align-self: center;
+    border-top: 0.25rem solid $color-blue;
+  }
+
+  &-heading {
+    color: $color-very-dark-blue;
+    font-size: 1.2rem;
+  }
+
+  &-text {
+    color: $color-grayish-blue;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  &-img {
+    height: 3.75rem;
+    width: 3.75rem;
+    align-self: flex-end;
+  }
+}
