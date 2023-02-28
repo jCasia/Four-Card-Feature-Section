@@ -9,3 +9,8 @@
 
 - React
 - SASS
+
+### Some screenshots of this project:
+
+![](./src/images/four-card1.png)
+![](./src/images/four-card2.png)
